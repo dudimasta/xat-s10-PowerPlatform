@@ -1,0 +1,1 @@
+# xat-s10-PowerPlatform
