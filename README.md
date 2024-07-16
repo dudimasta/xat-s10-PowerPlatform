@@ -42,14 +42,14 @@ Podczas warsztatów pracujemy z labami dostarczonymi przez Microsoft, w repo htt
 <code>git clone https://github.com/MicrosoftLearning/PL-400_Microsoft-Power-Platform-Developer.git C:\GitHub\PL-400</code>
 
 ### Demo 02
-Objective: how to create a Dataverse solution.
+Objective: tworzenie rozwiązania (solution) w DataVerse.
 Ref: https://github.com/MicrosoftLearning/PL-400_Microsoft-Power-Platform-Developer/blob/master/Instructions/Demos/DEMO%5BPL-400%5D_Demo02_Solution.md 
 
 ### Demo 03
 Objective: Tworzenie tabel
 Ref: https://github.com/MicrosoftLearning/PL-400_Microsoft-Power-Platform-Developer/blob/master/Instructions/Demos/DEMO%5BPL-400%5D_Demo03_Tables.md
 
-### Checkpoint:
+### Checkpoint
 Jeśli chcesz mieć w swoim środowisku stan rozwiązania jaki wynika z powyższych demonstancji, to zaimportuj do swojego środowiska (może być tego z suffixem _lab) rozwiązanie: PL400Demos_1_0_3_0.zip. Uruchom poniższe:
 - sprawdź, że jesteś podłączony z terminala do właściwego środowiska
     <br>&emsp;<code>pac auth list</code>
@@ -64,7 +64,13 @@ Jeśli chcesz mieć w swoim środowisku stan rozwiązania jaki wynika z powyższ
     - Zwrócić uwagę na kolumny systemowe (data czas utworzenia, modyfikacji, owner, stan rekordu, nr wersji rekordu itd.)
 - informacja dodatkowa: rozwiązanie możesz importować/eksportować także z UI make.powerapps
 
+<b>Uwaga:</b>
+Zauważyć, że formularz w DV jest częścią tabeli, (a nie osobnym obiektem, jak w AX). Każda tabela ma kilka domyślnych formularzy (np. główny, Card - karta informacyjna, quick view)
+
+
 ### Demo 04
+*** przeklikać ***
+
 Objective: Tworzenie kolumn i relacji pomiędzy tabelami
 Ref: https://github.com/MicrosoftLearning/PL-400_Microsoft-Power-Platform-Developer/blob/master/Instructions/Demos/DEMO%5BPL-400%5D_Demo04_Columns.md
 
