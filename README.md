@@ -9,7 +9,7 @@ Skrypty z tego repo były testowane w środowisku Windows 11. Jest szansa, że b
 - dokumentacja dewelopera Power Platform: https://learn.microsoft.com/en-us/power-platform/developer/
 - Power Platform Cli: https://learn.microsoft.com/en-us/power-platform/developer/cli/introduction?tabs=windows
 - podstawy programowania komponentów Power Platform
-- wersjonowanie kodu  rozwiązania Power Platform
+- wersjonowanie kodu rozwiązania Power Platform
 
 ## Będziesz potrzebować
 - Visual Studio Code
@@ -40,6 +40,8 @@ Skrypty z tego repo były testowane w środowisku Windows 11. Jest szansa, że b
 
 Podczas warsztatów pracujemy z labami dostarczonymi przez Microsoft, w repo https://github.com/MicrosoftLearning/PL-400_Microsoft-Power-Platform-Developer. Sklonuj to repo do swojego folderu, proponuję użyć krótkiej ścieżki, np. aby sklonować do C:\GitHub. Poniższe polecenie wykonuje klon repozytorium do folderu C:\GitHub\PL-400:<br />
 <code>git clone https://github.com/MicrosoftLearning/PL-400_Microsoft-Power-Platform-Developer.git C:\GitHub\PL-400</code>
+
+## Warsztat 1 - Modelowanie danych
 
 ### Demo 02
 Objective: tworzenie rozwiązania (solution) w DataVerse.
@@ -121,4 +123,5 @@ pac solution import --path "C:\GitHub\PL-400\Allfiles\Labs\L01\Starter\PermitMan
 <br /><pre>pac env select --environment xat-rdu-lab
 pac solution import --path "C:\GitHub\PL-400\Allfiles\Labs\L01\Starter\PermitManagement_Starter_with_CanvasApp.zip" --activate-plugins true --publish-changes true --async true</pre>
 
-ex 3 continue...
+## Warsztat 2 - Model Driven and Canvas Apps
+TBC
