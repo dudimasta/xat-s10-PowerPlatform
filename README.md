@@ -69,9 +69,56 @@ Zauważyć, że formularz w DV jest częścią tabeli, (a nie osobnym obiektem, 
 
 
 ### Demo 04
-*** przeklikać ***
+#### Trainer tip 
+Demo 04 bazuje na Demo 03. Jako starter należy zaimportować demo 03 do środowiska xat-rdu-dev:
+<br /><pre>pac env select --environment xat-rdu-dev
+pac solution import --path "C:\GitHub\PL-400\Allfiles\Demos\PL400Demos_1_0_3_0.zip" --activate-plugins true --publish-changes true --async true</pre>
 
-Objective: Tworzenie kolumn i relacji pomiędzy tabelami
-Ref: https://github.com/MicrosoftLearning/PL-400_Microsoft-Power-Platform-Developer/blob/master/Instructions/Demos/DEMO%5BPL-400%5D_Demo04_Columns.md
+Objective: Tworzenie kolumn
+<br />Wykonać kroki dema: Ref: https://github.com/MicrosoftLearning/PL-400_Microsoft-Power-Platform-Developer/blob/master/Instructions/Demos/DEMO%5BPL-400%5D_Demo04_Columns.md
 
-### Lab 01
+### Demo 05
+#### Trainer tip 
+Demo 05 bazuje na Demo 04. Jako starter należy zaimportować demo 04 do środowiska xat-rdu-dev:
+<br /><pre>pac env select --environment xat-rdu-dev
+pac solution import --path "C:\GitHub\PL-400\Allfiles\Demos\PL400Demos_1_0_4_0.zip" --activate-plugins true --publish-changes true --async true</pre>
+
+Objective: Tworzenie relacji pomiędzy tabelami
+<br />Wykonać kroki dema: Ref: https://github.com/MicrosoftLearning/PL-400_Microsoft-Power-Platform-Developer/blob/master/Instructions/Demos/DEMO%5BPL-400%5D_Demo05_Relationships.md
+
+
+### Demo 06
+#### Trainer tip 
+Demo 06 bazuje na Demo 05. Jako starter należy zaimportować demo 05 do środowiska xat-rdu-dev:
+<br /><b>W materiałach standardowych jest literówka, aby import poniższego kodu się powiódł, relacja ma się nazywać dem_pet_pet<u>r</u>rick</b> a nie dem_pet_pet<u>t</u>rick. Przed importem najlepiej usunąć relację...
+<br /><pre>pac env select --environment xat-rdu-dev
+pac solution import --path "C:\GitHub\PL-400\Allfiles\Demos\PL400Demos_1_0_5_0.zip" --activate-plugins true --publish-changes true --async true</pre>
+
+Objective: Tworzenie reguł biznesowych
+<br />Wykonać kroki dema: Ref: https://github.com/MicrosoftLearning/PL-400_Microsoft-Power-Platform-Developer/blob/master/Instructions/Demos/DEMO%5BPL-400%5D_Demo06_Buinessrule.md
+
+
+<b>Uwaga</b>
+<br />Business rules to technicznie workflowy identyfikowanie po guidzie. Dlatego import poniższego stworzy workflow (business rule) o tej samej nazwie (ale innym guid). Dlatego przed importem modelowego należy usunąć ten utworzony. (UID można znaleźć z UI > Advanced > See Solution Layers)
+
+Aby zaimportować modelową implementację: 
+
+<br /><pre>pac env select --environment xat-rdu-dev
+pac solution import --path "C:\GitHub\PL-400\Allfiles\Demos\PL400Demos_1_0_6_0.zip" --activate-plugins true --publish-changes true --async true</pre>
+
+*** After demo 06 participants should practice Lab 01
+
+### Lab 01 - Data Modeling
+
+Właściwy początek jest od Task 1.2 - create solution and publisher
+
+#### Trainer tip
+W starter są dwa pliki:
+- efekt labów 1 i 2 - Labs\L01\Starter\PermitManagement_Starter.zip
+<br /><pre>pac env select --environment xat-rdu-lab
+pac solution import --path "C:\GitHub\PL-400\Allfiles\Labs\L01\Starter\PermitManagement_Starter.zip" --activate-plugins true --publish-changes true --async true</pre>
+- efekt labów 1, 2, 3 - Labs\L01\Starter\PermitManagement_Starter_with_CanvasApp.zip
+<br /><pre>pac env select --environment xat-rdu-lab
+pac solution import --path "C:\GitHub\PL-400\Allfiles\Labs\L01\Starter\PermitManagement_Starter_with_CanvasApp.zip" --activate-plugins true --publish-changes true --async true</pre>
+
+ex 3 continue...
